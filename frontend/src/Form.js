@@ -22,7 +22,7 @@ function Form() {
       {/* <div className='subhead'><h2>We have closed the registration for this year. Thank you for your interest in the Offline Institute Yearbook. Those who have filled this form will be contacted for payment shortly.</h2></div> */}
       <div class="yearbook-preview">
             <p>To get more info about the physical Yearbook</p>
-            <a href="https://docs.google.com/document/d/121Bk5j9D1-Yv8pKUt4_lVHSAsXQiauzvJVilbE02Kso/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Click Here</a>
+            <a href="https://docs.google.com/document/d/1wk8ROkJm-eSoTS6_vljShr633bXkpAUgGsoY6-318-k/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Click Here</a>
         </div>
       <FormInputs/>
     </div>
