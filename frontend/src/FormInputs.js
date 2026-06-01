@@ -21,6 +21,7 @@ function FormInputs() {
     pincode:'',
     ncopies: '1',
     typeofcopy: 'complete',
+    prebookOfflineYearbook: 'no',
     otherSelectedPeople: [],
     comments: '',
   });
@@ -60,6 +61,7 @@ function FormInputs() {
     pincode:'',
     ncopies: '1',
     typeofcopy: 'complete',
+    prebookOfflineYearbook: 'no',
     otherSelectedPeople: [],
     comments: '',
       });
@@ -120,6 +122,14 @@ function FormInputs() {
           <option value='complete'>Complete YearBook with your profile, profiles of friends you’ve written for, and those who’ve written for you</option>
           <option value='onlytheirown'>Only with your own profile</option>
           <option value='customised'>Customised YearBook with some specific friends' profiles (select your friends list in the next option)</option>
+        </select>
+      </div>
+
+      <div className='form-input'>
+        <label htmlFor='prebookOfflineYearbook' className='required'>Do you want to pre book your offline yearbook?</label>
+        <select id='prebookOfflineYearbook' name='prebookOfflineYearbook' value={data.prebookOfflineYearbook} onChange={handleChange} required>
+          <option value='yes'>Yes</option>
+          <option value='no'>No</option>
         </select>
       </div>
 

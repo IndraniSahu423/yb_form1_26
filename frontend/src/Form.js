@@ -15,7 +15,7 @@ function Form() {
           alt="logo"
           className="logo"
         />
-        <h1 className="heading">YEARBOOK 2025</h1>
+        <h1 className="heading">YEARBOOK 2026</h1>
       </header>
       <div> <img src={banner} alt='banner' className='banner'/></div>
       <div className='subhead'><h2>Hold your memories in your hand</h2></div>

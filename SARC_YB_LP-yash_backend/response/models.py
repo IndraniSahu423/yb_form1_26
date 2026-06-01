@@ -11,6 +11,8 @@ class userResponse(models.Model):
     department=models.CharField(max_length=50)
     degree=models.CharField(max_length=50)
     typeofcopy=models.CharField(max_length=150)
+    prebookOfflineYearbook=models.CharField(max_length=3, default="no")
+    pincode=models.CharField(max_length=10, default="")
     address=models.TextField(default="")
     ncopies=models.CharField(max_length=150)
     otherSelectedPeople=models.JSONField(default=list, blank=True)
